@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/humanOrBot.DtEIpWpI.js","_astro/announcer.CFNmD-DC.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";var t=document.querySelector(`[data-human-or-bot]`);if(t){let n=null,r=!1;new IntersectionObserver(async i=>{let a=i.some(e=>e.isIntersecting);a&&!n&&!r?(r=!0,n=(await e(()=>import(`./humanOrBot.DtEIpWpI.js`),__vite__mapDeps([0,1]))).createHumanOrBot(t),r=!1,n.start()):n&&(a?n.start():n.stop())},{rootMargin:`300px 0px`}).observe(t)}
